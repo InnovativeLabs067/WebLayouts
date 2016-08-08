@@ -1,0 +1,36 @@
+1. user-scalable:
+You can disable zooming capabilities on mobile devices by adding "user-scalable=no" to the viewport meta tag. 
+This attribute is mostly used when we render the page on mobile devices. 
+
+2. width-device-width:
+The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+
+3. initial-scale:
+The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
+
+4. maximum-scale:
+If initial-scale=1 and maximum-scale=1,then it will not zoom in the page.
+If initial-scale=1 and maximum scale=1.5, the we can zoom in 150% of the screen. 
+
+5. minimum-scale:
+This attribute provides facility how much you can zoom out from the page.
+
+If initial-scale=1 and minimum-scale=1,then it will not zoom in the page.
+If initial-scale=1 and minimum-scale=1.5, the we can zoom out 150% of the screen.
+
+6. target-densitydpi
+Support for target-densitydpi in the viewport meta tag was recently removed.
+
+In Android browser and early versions of Chrome for Android, developers could use "target-densitydpi=device-dpi" viewport value to force the browser to make a CSS pixel the same size as a device pixel, 
+which may cause content to appear incorrectly scaled on screen.
+
+Best practice:
+When designing a new mobile site, or updating existing pages, you should use modern techniques for dealing with high DPI displays; 
+including always using <meta name="viewport" content="width=device-width"> and a flexible layout for mobile sites. 
+
+Result:
+In  pubnub.com,
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
+
+it is the best use of meta tag, we are define how much we can zoom in the page and also define default page rendering. 
+

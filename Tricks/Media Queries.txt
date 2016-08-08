@@ -1,0 +1,25 @@
+991, 767, 320
+Definition and Usage:
+
+The @media rule is used to define different style rules for different media types/devices.
+In CSS2 this was called media types, while in CSS3 it is called media queries.
+Media queries look at the capability of the device, and can be used to check many things, such as:
+
+-width and height of the viewport
+-width and height of the device
+-orientation (is the tablet/phone in landscape or portrait mode?)
+-resolution
+
+e.g 
+@media screen and (max-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries (imp link) 
+
+
+
+
+

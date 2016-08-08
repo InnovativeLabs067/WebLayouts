@@ -1,0 +1,13 @@
+Steps of backup your wordpress site:
+
+1- First copy your wordpress site folder in htdocs folder. (Dont hit the url e.g localhost/yoursitefoldername)
+2- Now create database, the database name should be same as your copied wordpress site has it.
+3- Then import your database sql file in your new database.
+4- Then, edit wp-config file, add user(root) in it.
+5- remove password in wp-config file
+
+Note: First export your copied wordpress database file.
+Note: Should remember your username and password for future customization in your theme.
+
+
+Link: http://www.wpexplorer.com/migrating-wordpress-website/
