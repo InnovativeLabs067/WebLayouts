@@ -1,0 +1,280 @@
+body{
+   /* background-color: lightgrey !important;*/
+    background-image: url("wallpaper3.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+
+}
+h1 {
+    font-size: 25px !important;
+    color: saddlebrown !important;
+    text-transform:capitalize;
+
+}
+b{
+    font-size: 57px;
+    color: whitesmoke;
+}
+.lead{
+    color: ghostwhite !important;
+    font-size: 19px !important;
+}
+#logo{
+    font-size: 65px;
+    color: red;
+    font-family: Brush Script Std;
+}
+#head{
+   margin-left: 50%;
+   margin-right: auto;
+}
+#search{
+    /*float: right;*/
+    margin-left: 175%;
+    margin-top: 13px;
+    border-radius: 5px 10px 5px 10px;
+
+}
+.color{
+    color: red;
+}
+.twitter{
+    color: #f5f5f5;
+    background-color: royalblue;
+    font-size: 35px;
+}
+.twitter:hover{
+    color: royalblue;
+    background-color: #f5f5f5;
+    font-size: 35px;
+}
+.facebook{
+    color: #f5f5f5;
+    background-color: mediumblue;
+    font-size: 35px;
+}
+.facebook:hover{
+    color: mediumblue;
+    background-color: #f5f5f5;
+    font-size: 35px;
+
+}
+.gplus{
+    color: #f5f5f5;
+    background-color: orangered;
+    font-size: 35px;
+}
+.gplus:hover{
+
+    color: orangered;
+    background-color: #f5f5f5;
+    font-size: 35px;
+}
+
+
+
+.container-fluid{
+    background-color: lightgrey;
+}
+
+
+
+/*navigation colour*/
+.navbar{
+    opacity: 0.7;
+    margin-top: 5px;
+}
+.navbar-nav a{
+    color: #000000 !important;
+}
+.navbar-nav a:hover{
+    color: red !important;
+}
+.contacts {
+    color: ghostwhite; /*remain*/
+
+}
+
+
+
+
+
+
+/*slider set*/
+.carousel-inner{
+    height: 100% !important;
+
+}
+.carousel-example-generic{
+
+    height: 100% !important;
+
+}
+#carousel-example-generic{
+    margin-top: -22px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#center{
+    /*width: 1200px;*/
+    width: 100%;
+    /*height: 330px;*/
+    height: 60%;
+   /* overflow-y: hidden;*/
+    border-radius: 10px 10px 10px 10px;
+    background-color: #f5f5f5;
+    opacity: 0.6;
+}
+/*#styles{
+    *//*width: 1200px;*//*
+    width: 250px;
+    *//*height: 330px;*//*
+    height: 450px;
+    background-color: #f5f5f5;
+    border-radius: 1px 5px 1px 15px;
+    opacity: 0.6;
+    margin-left: -23px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}*/
+
+.verticalline{
+    border-left: 2px solid gray;
+}
+p:first-letter {
+    font-size:27px !important;
+    color: red !important;
+}
+p {
+    text-align: justify !important;
+}
+#frntpara:first-letter {
+    font-size:100% !important;
+}
+#artpic img {
+   /* width:250px !important;
+    height:190px !important;*/
+    width: 25% !important;
+    height: 30% !important;
+    margin-left: 17px;
+    opacity: 1;
+}
+.stylepic{
+    width: 100% !important;
+    height: 30% !important;
+}
+.para{
+    color: #000000;
+    font-size: 15px;
+}
+#origin{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h3{
+    color: red !important;
+}
+#marq{
+    /*background-color: FireBrick;*/
+    margin-top: 5px;
+    background-color: lightgrey;
+    opacity: 0.7;
+    border-radius: 5px 10px 5px 10px;
+    height: 175px;
+
+}
+#marq img{
+    margin-top: 5px;
+    width:150px;
+    height:150px;
+}
+.stylealign{
+    margin-left: 3px !important;
+    margin-right: 3px !important;
+
+}
+#stylebutton{
+    margin-left: 15px !important;
+}
+#tabareamarq{
+    border-radius: 1px 5px 1px 5px;
+    height: 200px;
+    background-color: lightgrey;
+    opacity: 0.7;
+
+
+}
+.tabarea{
+    border-radius: 1px 5px 1px 5px;
+    height: 200px;
+    /*background-color: lightgrey !important;*/
+    margin-top: 5px;
+    opacity: 0.7;
+
+}
+.tabalign{
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+.nav-tabs li>a{
+    background-color: lightgray !important;
+    color: #000000 !important;
+    border-bottom-right-radius: 25px 90px !important;
+    opacity: 0.7;
+}
+.nav-tabs li>a:hover{
+    background-color: gray !important;
+    color: floralwhite !important;
+    border-bottom-right-radius: 25px 90px !important;
+    border-color: gray !important;
+    opacity: 0.7;
+
+}
+#feed{
+    border-radius: 13px 1px 13px 1px;
+    background-color: lightgray;
+    color: black;
+}
+
+.commentbutton{
+    border-radius: 3px 1px 3px 1px;
+    background-color: lightgray;
+
+}
+#views{
+    font-size: 19px;
+    color: red;
+    font-weight: bold;
+}
+
+.bottom-nav{
+    border-left: 2px solid gray;
+
+}
+#bottom-align{
+    background-color: #000000;
+    opacity: 0.7;
+}
+.anchor{
+    color: floralwhite !important;
+}
+.anchor:hover{
+    color: royalblue;
+}
+footer{
+    text-align: center;
+    color: #f5f5f5;
+}

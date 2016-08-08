@@ -1,0 +1,10 @@
+A CFG for Arithmetic Expressions
+
+An example grammar that generates strings representing arithmetic expressions with the four operators +, -, *, /, and numbers as operands is:
+
+<expression> --> number
+<expression> --> ( <expression> )
+<expression> --> <expression> + <expression>
+<expression> --> <expression> - <expression>
+<expression> --> <expression> * <expression>
+<expression> --> <expression> / <expression>

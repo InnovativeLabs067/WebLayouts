@@ -1,0 +1,7 @@
+<(b|p|i|b(o(dy)|r)|h(e(ad)|t(ml)|r|(1|2|3|4|5|6))|t(itle)|-|/|l(oop))>
+
+</(b|p|i|b(o(dy)|r)|h(e(ad)|t(ml)|r|(1|2|3|4|5|6))|t(itle)|-|/|l(oop))>
+
+1) mathematically justify the method of pasting / mapping texture onto circle... 
+2) use textured sprite sheet (mathematical explanation)
+https://www.cs.mtsu.edu/~jhankins/files/4250/notes/WinToView/WinToViewMap.html

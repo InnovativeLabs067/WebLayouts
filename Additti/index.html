@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Additti</title>
+
+
+    <link rel="icon" type="image/png" href="favicon-16x16.gif" sizes="16x16">
+    <!--Slider Files-->
+    <link rel="stylesheet" href="slider/example/multiple/css/example.css">
+    <link rel="stylesheet" href="slider/example/multiple/css/font-awesome.min.css">
+
+
+    <!--Bootstrap Files-->
+    <link href="css/bootstrap-3.3.2-dist/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/bootstrap-3.3.2-dist/css/bootstrap-theme.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/bootstrap-3.3.2-dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" media="all">
+
+    <!--Customize Files-->
+    <link rel="stylesheet" href="css/rest.css" type="text/css" media="all"> <!--Customize CSS file place in last-->
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css" media="all">
+
+
+    <style>
+        body {
+            -webkit-font-smoothing: antialiased;
+            font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: #232525;
+            padding-top:70px;
+        }
+
+        #slides,
+        #slides2,
+        #slides3 {
+            display: none;
+            margin-bottom:50px;
+        }
+
+        .slidesjs-navigation {
+            margin-top:3px;
+        }
+
+        .slidesjs-previous {
+            margin-right: 5px;
+            float: left;
+        }
+
+        .slidesjs-next {
+            margin-right: 5px;
+            float: left;
+        }
+
+        .slidesjs-pagination {
+            margin: 6px 0 0;
+
+            float: right;
+            list-style: none;
+        }
+
+        .slidesjs-pagination li {
+            float: left;
+            margin: 0 1px;
+        }
+
+        .slidesjs-pagination li a {
+            display: block;
+            width: 13px;
+            height: 0;
+            padding-top: 13px;
+            background-image: url(slider/example/multiple/img/pagination%20-%20Copy.png);
+            background-position: 0 0;
+            float: left;
+            overflow: hidden;
+        }
+
+        .slidesjs-pagination li a.active,
+        .slidesjs-pagination li a:hover.active {
+            background-position: 0 -13px
+        }
+
+        .slidesjs-pagination li a:hover {
+            background-position: 0 -26px;
+
+        }
+
+        a:link,
+        a:visited {
+            color: #333
+        }
+
+        a:hover,
+        a:active {
+            color: #9e2020
+        }
+
+        .navbar {
+            overflow: hidden
+        }
+    </style>
+    <!-- End SlidesJS Optional-->
+
+    <!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow -->
+    <style>
+        #slides {
+            display: none
+        }
+
+        .container {
+            margin: 0 auto
+        }
+
+        /* For tablets & smart phones */
+        @media (max-width: 767px) {
+            body {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .container {
+                width: auto
+            }
+        }
+
+        /* For smartphones */
+        @media (max-width: 480px) {
+            .container {
+                width: auto
+            }
+        }
+
+        /* For smaller displays like laptops */
+        @media (min-width: 768px) and (max-width: 979px) {
+            .container {
+                width: 724px
+            }
+        }
+
+        /* For larger displays */
+        @media (min-width: 1200px) {
+            .container {
+                width: 1170px
+            }
+        }
+    </style>
+    <!-- SlidesJS Required: -->
+
+
+</head>
+<body>
+
+
+<header>
+
+    <div class="logo-section row">
+
+        <div id="logo" class="col-md-12">
+            <a href="#"><img src="images/logo.gif" alt="picture not found"></a>
+            <input type="search" id="search"   class="hidden-sm hidden-xs">
+            <span id="search-icon" class="glyphicon glyphicon-search hidden-sm hidden-xs"></span>
+
+
+            <div id="cart-content"  class="hidden-sm hidden-xs">
+                <a href="#"><img src="images/cart.png" alt="picture not found" id="cart">
+                <b id="cart-text">$300</b>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="nav-section">
+
+        <nav id="navigation">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SALE</a></li>
+                <li><a href="#">HANDBAGS</a></li>
+                <li><a href="#">WALLETS</a></li>
+                <li><a href="#">ACCESSORIES</a></li>
+                <li><a href="#">MEN'S STORE</a></li>
+                <li><a href="#">SHOES</a></li>
+                <li><a href="#">VINTAGE</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#" id="contactus">CONTACT US</a></li>
+            </ul>
+
+        </nav>
+    </div>
+
+</header>
+
+
+                                    <!--Slider-->
+<div id="slider">
+    <div class="container">
+        <div id="slides">
+            <!--<img src="slider/example/multiple/img/example-slide-1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">-->
+            <div class="slider-content"> <!--Slide Start-->
+                <div class="media">
+
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="images/tees3.png" height="250px" width="250px" alt="Internet Not Available">
+                    </a>
+
+                    <div class="media-body">
+                        <h4 class="media-heading">COWHIDE</h4>
+                        <h4 class="media-heading">STANDARD CREW</h4>
+                        <p class="media-para">Short sleeve, Printed and T'Shirts for men by Levi's. This T'Shirt made by ganic cotton.</p>
+                        <p class="media-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    </div>
+
+                </div>
+            </div> <!--Slide End-->
+
+
+            <div class="slider-content"> <!--Slide Start-->
+                <div class="media">
+
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="images/45197503_xxl.jpg" height="250px" width="250px" alt="Internet Not Available">
+                    </a>
+
+                    <div class="media-body">
+                        <h4 class="media-heading">ROUND NECK T'SHIRT</h4>
+                        <h4 class="media-heading">STANDARD CREW</h4>
+                        <p class="media-para">Short sleeve, Printed and T'Shirts for men by Levi's. This T'Shirt made by ganic cotton.</p>
+                        <p class="media-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    </div>
+
+                </div>
+
+            </div>   <!--Slide End-->
+
+            <div class="slider-content"> <!--Slide Start-->
+                <div class="media">
+
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="images/x41282_01.jpg" height="250px" width="250px" alt="Internet Not Available">
+                    </a>
+
+                    <div class="media-body">
+                        <h4 class="media-heading">SHORT SLEEVE T'SHIRT</h4>
+                        <h4 class="media-heading">STANDARD CREW</h4>
+                        <p class="media-para">Short sleeve, Printed and T'Shirts for men by Levi's. This T'Shirt made by ganic cotton.</p>
+                        <p class="media-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    </div>
+
+                </div>
+
+            </div>   <!--Slide End-->
+
+
+            <div class="slider-content"> <!--Slide Start-->
+                <div class="media">
+
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="images/hand%20bags.png" height="250px" width="250px" alt="Internet Not Available">
+                    </a>
+
+                    <div class="media-body">
+                        <h4 class="media-heading">LADIES HAND BAGS</h4>
+                        <h4 class="media-heading">STANDARD CREW</h4>
+                        <p class="media-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    </div>
+
+                </div>
+
+            </div>   <!--Slide End-->                    <!--<a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left"></i></a>
+            <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right"></i></a>-->
+        </div>
+    </div>
+</div>
+
+
+
+<div class="content">
+
+    <div class="row items">
+
+        <div class="col-md-4 col-lg-4 col-sm-12">
+            <img src="images/shoe.png" alt="picture not found" class="product-images" align="left">
+            <h3 class="product-heading">BRANDED SHOES</h3>
+            <a href="#" class="shop">SHOP</a>
+        </div>
+
+        <div class="col-md-4 col-lg-4 col-sm-12">
+            <img src="images/tees.png" alt="picture not found" class="product-images" align="left">
+            <h3 class="product-heading">BRANDED TSHIRTS</h3>
+            <a href="#" class="shop">SHOP</a>
+        </div>
+
+        <div class="col-md-4 col-lg-4 col-sm-12">
+            <img src="images/trousers.png" alt="picture not found" class="product-images"  align="left">
+            <h3 class="product-heading">BRANDED TROUSERS</h3>
+            <a href="#" class="shop">SHOP</a>
+        </div>
+
+    </div>
+
+    <!--FEATURED PRODUCTS-->
+
+    <div id="featured-products">
+        <h3 class="featured-product-main-heading">FEATURED PRODUCTS</h3>
+    </div>
+
+
+    <div class="row more-products">
+
+        <div class="col-md-4 col-lg-4 ">
+            <div class="col-md-10 col-md-offset-1 border-bottom">
+            	<div class="distance-bottom">
+                	<img src="images/sandles.png" alt="picture not found" class="more-product-images">
+                	<h3 class="featured-product-heading">BRANDED SHOES</h3>
+                	<h4>$300</h4>
+                	<a href="#" class="buynow">BUY NOW</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-lg-4">
+            <div class="col-md-10 col-md-offset-1 border-bottom">
+            	<div class="distance-bottom">
+                	<img src="images/tees2.png" alt="picture not found">
+                	<h3 class="featured-product-heading">BRANDED TSHIRTS</h3>
+                	<h4>$300</h4>
+                	<a href="#" class="buynow">BUY NOW</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-lg-4">
+            <div class="col-md-10 col-md-offset-1 border-bottom">
+            	<div class="distance-bottom">
+                	<img src="images/tees3.png" alt="picture not found">
+                	<h3 class="featured-product-heading">BRANDED TROUSERS</h3>
+                	<h4>$300</h4>
+                	<a href="#" class="buynow">BUY NOW</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="row more-products">
+
+        <div class="col-md-4">
+            <div class="col-md-10 col-md-offset-1 border-bottom">
+                <div class="distance-bottom">
+                    <img src="images/wallets.png" alt="picture not found">
+                    <h3 class="featured-product-heading">BRANDED WALLETS</h3>
+                    <h4>$300</h4>
+                    <a href="#" class="buynow">BUY NOW</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="col-md-10 col-md-offset-1 border-bottom">
+            	<div class="distance-bottom">
+                	<img src="images/hand bags.png" alt="picture not found">
+                	<h3 class="featured-product-heading">BRANDED WATCHES</h3>
+                	<h4>$300</h4>
+                	<a href="#" class="buynow">BUY NOW</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="col-md-10 col-md-offset-1 border-bottom">
+            	<div class="distance-bottom">
+                	<img src="images/trousers.png" alt="picture not found">
+                	<h3 class="featured-product-heading">BRANDED HANDBAGS</h3>
+                	<h4>$300</h4>
+                	<a href="#" class="buynow">BUY NOW</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="footer-links">
+
+        <div class="row">
+
+            <div class="col-md-3 links">
+                <ul>
+                    <li class="footer-heading">FEATURED STYLE</li>
+                    <li><a href="#">Alexis Hudson</a></li>
+                    <li><a href="#">American Aparel</a></li>
+                    <li><a href="#">Ben Sharmen</a></li>
+                    <li><a href="#">Big Buddha</a></li>
+                    <li><a href="#">Channel</a></li>
+                    <li><a href="#">Christian Audigier</a></li>
+                    <li><a href="#">Coach</a></li>
+                    <li><a href="#">Cole Haan</a></li>
+                </ul>
+
+            </div>
+
+            <div class="col-md-3 links">
+                <ul>
+                    <li class="footer-heading">MEN'S STORE</li>
+                    <li><a href="#">Alexis Hudson</a></li>
+                    <li><a href="#">American Aparel</a></li>
+                    <li><a href="#">Ben Sharmen</a></li>
+                    <li><a href="#">Big Buddha</a></li>
+                    <li><a href="#">Channel</a></li>
+                    <li><a href="#">Christian Audigier</a></li>
+                    <li><a href="#">Coach</a></li>
+                    <li><a href="#">Cole Haan</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 links">
+                <ul>
+                    <li class="footer-heading">WOMEN'S STORE</li>
+                    <li><a href="#">Alexis Hudson</a></li>
+                    <li><a href="#">American Aparel</a></li>
+                    <li><a href="#">Ben Sharmen</a></li>
+                    <li><a href="#">Big Buddha</a></li>
+                    <li><a href="#">Channel</a></li>
+                    <li><a href="#">Christian Audigie</a></li>
+                    <li><a href="#">Coach</a></li>
+                    <li><a href="#">Cole Haan</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 links">
+                <ul>
+                    <li class="footer-heading">QUICK LINKS</li>
+                    <li><a href="#">Alexis Hudson</a></li>
+                    <li><a href="#">American Aparel</a></li>
+                    <li><a href="#">Ben Sharmen</a></li>
+                    <li><a href="#">Big Buddha</a></li>
+                    <li><a href="#">Channel</a></li>
+                    <li><a href="#">Christian Audigier</a></li>
+                    <li><a href="#">Coach</a></li>
+                    <li><a href="#">Cole Haan</a></li>
+                </ul>
+            </div>
+
+            <br>
+            <br>
+
+
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+<footer>
+    <br>
+CopyRight© Zain Ansari,2016
+    <br><br>
+</footer>
+
+<!-- SlidesJS Required: Link to jQuery -->
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<!-- End SlidesJS Required -->
+
+<!-- SlidesJS Required: Link to jquery.slides.js -->
+<script src="slider/example/multiple/js/jquery.slides.min.js"></script>
+<!-- End SlidesJS Required -->
+
+<script>
+    $(function() {
+        $('#slides').slidesjs({
+            /*width: 940,*/
+            width: 1200,
+            /*height: 528,*/
+            height: 345,
+            navigation: false,
+			play: {
+                auto: true
+            }
+        });
+
+        /*
+         To have multiple slideshows on the same page
+         they just need to have separate IDs
+         */
+        
+		/*$('#slides2').slidesjs({
+            width: 940,
+            height: 528,
+            navigation: false,
+            start: 3,
+            play: {
+                auto: true
+            }
+        });
+
+        $('#slides3').slidesjs({
+            width: 940,
+            height: 528,
+            navigation: false
+        });*/
+    });
+</script>
+<!-- End SlidesJS Required -->
+
+</body>
+</html>

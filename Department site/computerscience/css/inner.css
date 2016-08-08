@@ -1,0 +1,144 @@
+/* 
+
+Black Box - CSS File - CSS File
+
+USE THIS STYLE SHEET FOR INNER PAGE
+
+*/
+#page-title{margin:0px 0px 20px 0px;}
+#page-title h1{font-size:40px; line-height:42px; background-image:url(../images/hr.gif); background-repeat:repeat-x; background-position:bottom; padding-bottom:15px; }
+#page-content{}
+.col-left{width:620px; float:left; padding-right:40px}
+.side-right{width:280px; float:left}
+
+/* Blog */
+.hentry {
+	margin: 0 0 25px 0;
+	padding:0px 0px 15px 0px;
+}
+
+.post{
+	margin: 0 0 25px 0;
+	padding:0px 0px 10px 0px;
+	background-image:url(../images/hr.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+}
+.entry-title {
+	margin:0px;
+}
+.entry-title a:link,
+.entry-title a:visited {
+	color:#08253f;
+	text-decoration: none;
+}
+.entry-title a:active,
+.entry-title a:hover {
+	color: #08253f;
+}
+.entry-meta {
+	margin-bottom:9px;
+	position:relative;
+}
+.entry-utility {
+	font-size: 12px;
+	line-height: 18px;
+	clear: both;
+}
+.entry-meta a,
+.entry-utility a {
+	text-decoration:none
+}
+.entry-meta a:hover,
+.entry-utility a:hover {
+	color: #9c9a9a;
+}
+.video-player {
+	padding: 0;
+}
+
+.itime{
+	position:absolute; right:0; top:-26px;
+	background-color:#e6e6e6;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding:8px 8px 8px 8px;
+	color:#898989
+}
+.idate{font-size:24px; line-height:26px; display:inline; float:left; padding-right:10px; margin-right:10px; border-right:solid 1px}
+.iyear{display:inline; float:left; line-height:12px; text-align:center; font-size:11px; text-transform:uppercase}
+.imonth{display:block;}
+.itag{background-image:url(../images/icon_tags.gif); background-repeat:no-repeat; padding:1px 20px 0px 20px; background-position:0px 3px}
+.icat{background-image:url(../images/icon_cat.gif); background-repeat:no-repeat; padding:1px 20px 4px 20px; background-position:0px 3px; right:0; position:absolute}
+.icomm{background-image:url(../images/icon_comment.gif); background-repeat:no-repeat; padding:1px 20px 0px 20px; background-position:0px 3px}
+.ilcomm{background-image:url(../images/icon_leave_comment.gif); background-repeat:no-repeat; padding:1px 20px 0px 20px; background-position:0px 3px}
+.iauth{background-image:url(../images/icon_posted.gif); background-repeat:no-repeat; padding:1px 20px 0px 20px; background-position:0px 3px}
+.itweet{background-image:url(../images/icon_tweet.gif); background-repeat:no-repeat; padding:1px 20px 0px 20px; background-position:0px 3px}
+.more-link{display:block; margin-top:10px;}
+.navigation a, .navigation span {
+	text-decoration: none;
+	padding: 3px 6px;
+	margin: 2px;
+	line-height:25px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border:solid 1px #ccc;
+	background-color:#666666;
+	color:#fff
+}
+
+.navigation a:hover, .navigation span.current {
+	border-color: #949292 !important;
+	background-color:#333333
+}
+
+
+/* portfolio */
+.gallery{margin:0px; list-style-type:none;}
+.gallery li{float:left; width:248px; margin:0px 90px 20px 0px}
+.gallery li.nomargin{margin-right:0px;}
+.navigation2 .prev, .navigation2 .next {
+	text-decoration: none;
+	margin: 2px;
+	line-height:25px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border:solid 1px #ccc;
+	background-color:#666666;
+	color:#fff !important;
+	padding:0px 10px;
+	text-transform:uppercase;
+	font-size:11px;
+	display:block
+}
+.navigation2{position:relative;}
+.navigation2 .next{right:0px; float:right}
+.navigation2 .prev{left:0px; float:left}
+.navigation2 .prev a, .navigation2 .prev a:visited{color:#fff; text-decoration:none;}
+.navigation2 .next a, .navigation2 .next a:visited{color:#fff; text-decoration:none;}
+.navigation2 .prev:hover{background-color:#333;}
+.navigation2 .next:hover{background-color:#333;}
+.meta-nav{vertical-align:bottom; line-height:28px; }
+/* contact */
+#contact_form{margin:0 auto; position:relative}
+label{float:left; width:100px; margin-top:0px;}
+label.sp {width:3px;}
+span.error{color:red;text-align:left; vertical-align:top; font-size:11px}
+
+#message{ margin-left:0px;}
+#message h2	{}
+#message p{margin:6px 0px; }
+
+#contact_form input:focus, #contact_form textarea:focus {	border:solid 2px #e9e9e9;
+	border-width:1px 2px 2px 1px;
+}
+#contact_form .input{padding:5px; margin-bottom:10px; width:320px}
+#contact_form textarea.input{width:50%; padding:10px}
+#contact_form .button{left:100px; position:absolute; width:auto; padding:5px 20px}
+
+

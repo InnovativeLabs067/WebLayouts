@@ -1,0 +1,210 @@
+body{
+    /*background-color: dodgerblue;*/
+}
+#logo{
+    margin-top: -62px;
+}
+.logo-section{
+    text-align: center;
+}
+
+#search{
+    width: 436px;
+    margin-left: 171px;
+}
+#search:after{
+    content: "<span>hi</span>";
+}
+#cart-content{
+    margin-left: 149px;
+    display: inline;
+}
+#cart-content a:hover{
+    text-decoration: none;
+}
+#cart-text{
+    color: #a1a1a1;
+    font-size: 33px;
+}
+#search-icon{
+    margin-left: -25px;
+    margin-left: -25px;
+}
+#slider{
+    margin-top: -10px;
+    background-color: #3ac8b3;
+    height: 370px;
+}
+.slider-content{
+    margin-top: 65px;
+    margin-bottom: 50px;
+}
+.media-heading{
+    color: whitesmoke !important;
+    font-size: 41px;
+    font-family: Bernard MT Condensed !important;
+}
+.media-para{
+    color: whitesmoke !important;
+    font-size: 14px;
+    font-weight: lighter;
+    /*font-family: Bernard MT Condensed !important;*/
+}
+.nav-section{
+    background-color: #4ccfc1;
+    margin-top: 18px;
+}
+#navigation{
+    text-align: center;
+}
+#navigation ul li{
+    display: inline;
+}
+#navigation ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    border-right: 2px solid whitesmoke;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#navigation ul li a#contactus{
+    border-right: none;
+}
+
+
+
+
+
+.product-heading{
+    color: #afafaf;
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: Calibri;
+    word-wrap: break-word;
+    width: 245px;
+    text-align: justify;
+}
+.featured-product-heading{
+    color: #afafaf;
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: Calibri;
+}
+#featured-products{
+    background-color: #4ccfc1;
+    margin-top: 37px;
+    font-family: Myriad Pro;
+}
+
+.featured-product-main-heading{
+    color: whitesmoke;
+    margin-left: 187px;
+    line-height: 2.2;
+
+}
+
+
+.items{
+    margin-left: 128px !important;
+    margin-right: 128px !important;
+    margin-top: 29px;
+}
+.items img,.product-heading{
+    /*display: inline;*/
+}
+.items .shop{
+    display: inline;
+    /*margin-left: 178px;*/
+    margin-top: -58px;
+    border-radius: 3px 3px 3px 3px;
+    width: 70px;
+    padding: 5px;	
+}
+.items a:hover{
+    text-decoration: none !important;
+    color: whitesmoke !important;
+}
+
+
+.more-products{
+    text-align: center;
+    margin-left: 128px !important;
+    margin-right: 128px !important;
+    margin-bottom: 73px;
+	margin-top: 73px;
+}
+.more-products img,.featured-product-heading{
+}
+.more-products .buynow{
+    display: inline;
+    margin-left: 5px;
+    border-radius: 5px 5px 5px 5px;
+    width: 116px;
+    padding: 5px;
+}
+.more-products h4{
+    color: #afafaf;
+    display: inline;
+}
+.more-products a:hover{
+    text-decoration: none !important;
+    color: whitesmoke !important;
+}
+
+
+.shop{
+    background-color: #3cc395 !important;
+    color: whitesmoke !important;
+    font-weight: bolder;
+    font-size: 21px;
+}
+.buynow{
+    background-color: #3cc395 !important;
+    color: whitesmoke !important;
+    font-weight: bolder;
+    font-size: 21px;
+}
+.product-images{
+    width: 166px;
+    height: 162px;
+}
+.border-bottom{
+    border: 1px solid gray;
+    border-bottom: 3px solid #3cc395;
+}
+.distance-bottom{
+    margin-bottom: 30px;
+}
+#footer-links{
+    background-color: #3cc3b5;
+    text-align: center;
+
+}
+#footer-links .footer-heading{
+    margin-top: 42px;
+    margin-bottom: 28px;
+    display: table;
+
+    font-size: 17px;
+    color: whitesmoke;
+    font-family: Myriad Pro;
+    font-weight: bolder;
+
+}
+#footer-links ul{
+    margin-bottom: 42px;
+}
+.links ul > li a{
+    font-size: 15px;
+    color: whitesmoke;
+    /*font-family: Myriad Pro;*/
+    display: table;
+    font-weight: lighter !important;
+    text-decoration: none;
+}
+footer{
+    background-color: #2da89b;
+    color: whitesmoke;
+    text-align: center;
+
+}

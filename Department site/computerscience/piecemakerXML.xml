@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Piecemaker>
+  <Settings>
+    <imageWidth>918</imageWidth>
+    <imageHeight>378</imageHeight>
+    <segments>7</segments>
+    <tweenTime>1.2</tweenTime>
+    <tweenDelay>0.1</tweenDelay>
+    <tweenType>easeInOutQuad</tweenType>
+    <zDistance>5</zDistance>
+    <expand>10</expand>
+    <innerColor>0x111111</innerColor>
+    <textBackground>0x0064C8</textBackground>
+    <shadowDarkness>100</shadowDarkness>
+    <textDistance>25</textDistance>
+    <autoplay>6</autoplay>
+  </Settings>
+  <Image Filename="slide1.jpg">
+    <Text>
+      <headline>Description Text</headline>
+      <break>Ӂ</break>
+      <paragraph>Here you can add a description text for every single image.</paragraph>
+      <break>Ӂ</break>
+      <inline>This is HTML text loaded from the external XML file and formatted with an external CSS file. So it's pretty simple to set this text. You can also easily add</inline>
+      <a href="http://www.modularweb.net/piecemaker" target="_blank">Ӂhyperlinks</a>
+      <paragraph>. This one leads you to the official Piecemaker website, by the way.</paragraph>
+    </Text>
+  </Image>
+  <Image Filename="slide2.jpg">
+    <Text>
+      <headline>Description Text</headline>
+      <break>Ӂ</break>
+      <paragraph>Here you can add a description text for every single image.</paragraph>
+      <break>Ӂ</break>
+      <inline>This is HTML text loaded from the external XML file and formatted with an external CSS file. So it's pretty simple to set this text. You can also easily add</inline>
+      <a href="http://www.modularweb.net/piecemaker" target="_blank">Ӂhyperlinks</a>
+      <paragraph>. This one leads you to the official Piecemaker website, by the way.</paragraph>
+    </Text>
+  </Image>
+  <Image Filename="slide3.jpg">
+    <Text>
+      <headline>Description Text</headline>
+      <break>Ӂ</break>
+      <paragraph>Here you can add a description text for every single image.</paragraph>
+      <break>Ӂ</break>
+      <inline>This is HTML text loaded from the external XML file and formatted with an external CSS file. So it's pretty simple to set this text. You can also easily add</inline>
+      <a href="http://www.modularweb.net/piecemaker" target="_blank">Ӂhyperlinks</a>
+      <paragraph>. This one leads you to the official Piecemaker website, by the way.</paragraph>
+    </Text>
+  </Image>
+  <Image Filename="slide4.jpg">
+    <Text>
+      <headline>Description Text</headline>
+      <break>Ӂ</break>
+      <paragraph>Here you can add a description text for every single image.</paragraph>
+      <break>Ӂ</break>
+      <inline>This is HTML text loaded from the external XML file and formatted with an external CSS file. So it's pretty simple to set this text. You can also easily add</inline>
+      <a href="http://www.modularweb.net/piecemaker" target="_blank">Ӂhyperlinks</a>
+      <paragraph>. This one leads you to the official Piecemaker website, by the way.</paragraph>
+    </Text>
+  </Image>
+  <Image Filename="slide1.jpg">
+    <Text>
+      <headline>Description Text</headline>
+      <break>Ӂ</break>
+      <paragraph>Here you can add a description text for every single image.</paragraph>
+      <break>Ӂ</break>
+      <inline>This is HTML text loaded from the external XML file and formatted with an external CSS file. So it's pretty simple to set this text. You can also easily add</inline>
+      <a href="http://www.modularweb.net/piecemaker" target="_blank">Ӂhyperlinks</a>
+      <paragraph>. This one leads you to the official Piecemaker website, by the way.</paragraph>
+    </Text>
+  </Image>
+  <Image Filename="slide2.jpg">
+    <Text>
+      <headline>Description Text</headline>
+      <break>Ӂ</break>
+      <paragraph>Here you can add a description text for every single image.</paragraph>
+      <break>Ӂ</break>
+      <inline>This is HTML text loaded from the external XML file and formatted with an external CSS file. So it's pretty simple to set this text. You can also easily add</inline>
+      <a href="http://www.modularweb.net/piecemaker" target="_blank">Ӂhyperlinks</a>
+      <paragraph>. This one leads you to the official Piecemaker website, by the way.</paragraph>
+    </Text>
+  </Image>
+</Piecemaker>
