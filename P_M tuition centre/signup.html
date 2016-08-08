@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="signup.css" type="text/css" media="all"/>
+</head>
+
+<body>
+<div id="main">
+
+    <span id="bgimg">
+
+   <img src="mickey.jpg" id="img"/>
+    </span>
+
+
+ <span id="form">
+
+            <form method="post" action="login.html">
+
+                <fieldset>
+                    <legend>SignUp</legend>
+                    <label class="label" for>First Name</label>
+                    <span class="field"><input type="text" id="firstname" name="username" REQUIRED></span>
+
+                    <label id="lastname" for>Last Name</label>
+                    <input type="text" id="ltname" name="username" REQUIRED>
+
+                    <p>
+                    <label class="label" for>User_ID</label>
+                    <input type="text" id="userid" name="userid" REQUIRED>
+                    </p>
+
+                    <p>
+                        <label class="label" for>Email</label>
+                        <span class="field"><input type="email" id="email" name="userid" REQUIRED></span>
+                    </p>
+
+                    <p>
+                    <label  for>Password</label>
+                    <span ><input type="password" id="pwd" name="pwd" REQUIRED></span>
+                    </p>
+
+                    <p>
+                    <span>
+                        <h4>Birthday</h4>
+                    <input type="date" id="date" REQUIRED>
+                    </span>
+                    </p>
+                    <p>
+
+
+
+                            <h4>Gender:</h4>
+                            <input type="radio" id="female" name="gender">
+                            <label for>Female</label>
+
+                            <input type="radio" id="male" name="gender">
+                            <label for>Male</label>
+
+                    </p>
+                    <hr>
+                    <p>
+                    <h4>Write Your Comments Here.....</h4>
+                        <textarea id="textarea" cols="30" rows="10"></textarea>
+                    </p>
+
+                    <div >
+                        <input type="submit" id="login" name="login"   value="Login">
+                    </div>
+                </fieldset>
+            </form>
+ </span>
+
+
+
+</div>
+
+<div>
+    <footer>
+        ©ParkashKumar
+    </footer>
+</div>
+</body>
+</html>

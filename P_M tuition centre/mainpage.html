@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="mainpage.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="nav.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="login.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="mainpage.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Slider, Hi Slider, Simple HTML5 Slideshow, Free js slider" />
+    <meta name="description" content="Slider created with Hi Slider which enable you to publish responsive jQuery image slideshows, seamless WordPress slider plugins, amazing website sliding banners and fancy JavaScript slideshow presentation" />
+    <script type="text/javascript" src="sliderengine/jquery.js"></script><script type="text/javascript" src="sliderengine/jquery.hislider.js"></script>
+
+    <style>
+        html,body{height:100% !important; }
+
+
+         .black_overlay{
+             display: none;
+             position: absolute;
+             top: 0%;
+             left: 0%;
+             width: 100%;
+             height: 100%;
+
+             background-color: black;
+             color:#000000 !important;
+             z-index:1001;
+             -moz-opacity: 0.8;
+             opacity:.80;
+             filter: alpha(opacity=20);
+             min-width: 980px;
+         }
+        .white_content {
+            display: none;
+            position: absolute;
+            top: 15%;
+            left: 38%;
+
+            width: 22%;
+            max-width:100%;
+
+            background-color: white;
+            color:#000000 !important;
+            z-index:1002;
+            overflow: auto;
+            height: 340px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 80px #777777;
+            min-width: 300px;
+        }
+    </style>
+
+</head>
+<body>
+<div id="main">
+    <header><span class="log"><img src="lg.jpg" width="15px" height="15px"/>
+        <a href = "javascript:void(0)"onclick = "document.getElementById('light').style.display='inline';
+        document.getElementById('fade').style.display='inline'" class="log1">Login?</a>   <div id="light" class="white_content">
+ <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'" ><img src="button_cancel.png" width="10px" height="10px"id="close"> </a>
+
+           <div id="form">
+
+                <form method="post" action="login.html">
+
+
+                        <!--<img src="LOGINIMAGE.jpg" id="loginimage"/>-->
+                  <legend><img src="l1.jpg" width="200px" height="150px"></legend>
+
+                        <label class="label" for>User_ID</label>
+                        <div class="field"><input type="text" id="userid" name="userid" REQUIRED></div>
+
+                        <label  for>Password</label>
+                        <div ><input type="password" id="pwd" name="pwd" REQUIRED></div>
+                        <div id="free"><span><a href="logup.html"><p id="signup"><img src="lg.jpg" width="15px" height="15px"/> SignUp?</p></a></span>
+                           <!----><input type="submit" id="login" name="login"   value="Login">
+
+                        </div>
+
+
+                </form>
+
+            </div>
+
+      </div>
+       <div id="fade" class="black_overlay"></div></span>
+
+
+        <img src="image1.png" id="hdimg"/> <img src="hdig.png"id="logo"><br><br><span class="quote"><em>“You educate a man; you educate a man. You educate a woman; you educate a generation.”</em> </span>
+
+    </header>
+    <div id="nav">
+        <div id="nav_wrapper">
+            <ul>
+                <li><a href="mainpage.html">HOME</a>
+                    <!--<ul>
+                        <li><a href="#" onclick="syntax();">COMPILE</a></li></ul></li>--><li>
+                <a href="#">MENU</a><ul>
+                        <li><a href="http://parkash.5gbfree.com/iqapp/iqapp.html">IQ Level</a></li></ul></li><li>
+                <a href="#">INFO</a><ul>
+                <li><a href="#">Faculty</a></li></ul>
+            </li><li>
+                <a href="JavaScript:void(0)" onclick="contact();">CONTACT</a>
+            </li><li>
+                <a href="JavaScript:void(0)" onclick="aboutus();">ABOUTUS</a></li><li>
+                <span id="search1"><input type="search" id="search" placeholder="Search..."/></span>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+
+<div id="content2">
+    <article>
+<marquee id="marquee" direction="left">Our aim is to bulid to your character and carrier</marquee>
+    </article>
+
+</div>
+    <div id="content1">
+        <article id="slide">
+            <!----begin------Insert to your webpage where you want to display the slider-->
+            <div id='hislider1' style=" max-width:700px;  max-height:300px;height:100%; margin: 0 auto;">
+
+                <noscript>The slider is powered by <strong>Hi Slider</strong>, a easy jQuery image slider from <a target="_blank" href="hislider.com">hislider.com</a>. Please enable JavaScript to view.</noscript><div class="hi-about-text" style="display:none">This jQuery slider was created with the free <a style="color:#FFF;" href="http://hislider.com" target="_blank">Hi Slider</a> for WordPress plugin,Joomla & Drupal Module from hislider.com.<br /><br /><a style="color:#FFF;" href="#" class="hi-about-ok">OK</a></div><div class="hi-slider-watermark"  style="display:none"><a href="http://hislider.com" target="_blank">hislider.com</a></div>
+            </div>
+            <!----end------Insert to your webpage where you want to display the slider-->
+            <!----begin------Insert to your webpage where you want to display the slider-->
+            <!--<div id='hislider1' style=" max-width:700px;  max-height:300px;height:100%; margin: 0 auto;">-->
+
+                <!--<noscript>The slider is powered by <strong>Hi Slider</strong>, a easy jQuery image slider from <a target="_blank" href="hislider.com">hislider.com</a>. Please enable JavaScript to view.</noscript><div class="hi-about-text" style="display:none">This jQuery slider was created with the free <a style="color:#FFF;" href="http://hislider.com" target="_blank">Hi Slider</a> for WordPress plugin,Joomla & Drupal Module from hislider.com.<br /><br /><a style="color:#FFF;" href="#" class="hi-about-ok">OK</a></div><div class="hi-slider-watermark"  style="display:none"><a href="http://hislider.com" target="_blank">hislider.com</a></div>-->
+            <!--</div>-->
+            <!----end------Insert to your webpage where you want to display the slider-->
+        </article>
+    </div>
+    <div id="content3"><br>
+<h2 id="heading"></h2>
+        <article class="para1" id="para1">
+
+                Education in its general sense is a form of learning in which the knowledge, skills,
+                values, beliefs and habits of a group of people are transferred from one generation to the next through
+                story telling, discussion, teaching, training, and or research. Education may also include informal
+                transmission of such information from one human being to another. Education frequently takes place under
+                the guidance of others, but learners may also educate themselves (autodidactic learning).
+
+        </article>
+
+        <article class="para" id="para2">
+        <br>
+
+                Education is commonly and formally divided into stages such as preschool, primary school, secondary school
+                and then college, university or apprenticeship. The science and art of how best to teach is called pedagogy.
+        </article>
+             <article class="para" id="para3">
+                 <br>
+
+                 Education began in the earliest prehistory, as adults trained the young in the knowledge and skills deemed
+                 necessary in their society. In pre-literate societies this was achieved orally and through imitation.
+                 Story-telling passed knowledge, values, and skills from one generation to the next. As cultures began to
+                 extend their knowledge beyond skills that could be readily learned through imitation, formal education developed.
+                 Schools existed in Egypt at the time of the Middle Kingdom
+             </article>
+
+        <div id="content4">
+            <ul id="fimg">
+       <center><li class="li"><img src="mainpageimages/1.jpg" class="images" id="img1" onmouseover="zoom(id);" onmouseout="resize(id);"/></li>
+                <li class="li"><img src="mainpageimages/2.jpg"class="images" id="img2" onmouseover="zoom(id);" onmouseout="resize(id);"/></li>
+                <li class="li"><img src="mainpageimages/3.jpg"class="images" id="img3" onmouseover="zoom(id);" onmouseout="resize(id);"/></li>
+                <li class="li"><img src="mainpageimages/4.jpg"class="images" id="img4" onmouseover="zoom(id);" onmouseout="resize(id);"/></li>
+                <li class="li"><img src="mainpageimages/5.jpg"class="images" id="img5" onmouseover="zoom(id);" onmouseout="resize(id);" /></li></center>
+            </ul>
+            <div id="footer">
+
+                © ParkashKumar
+
+            </div>
+        </div>
+        <!--<div id="footer">
+
+                    © ParkashKumar
+
+        </div>-->
+
+ </div>
+
+
+</div>
+
+</body>
+
+</html>

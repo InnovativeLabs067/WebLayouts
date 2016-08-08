@@ -1,0 +1,65 @@
+#design
+{
+    padding-top: 20px;
+    border-style: double;
+    border-width: thick;
+    margin-left: 300px;
+    margin-right: 650px;
+    background-color: greenyellow;
+    position: relative; left: 150px;
+}
+
+.Fields
+{
+  font-family:cursive;
+    font-size: 20px;
+    color: dodgerblue;
+    font-weight: bolder;
+    margin-left: 40px;
+    margin-top: 30px;
+    padding-right: 20px ;
+}
+
+.Textfields
+{
+ padding : 5px 10px 5px 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+}
+
+#Total
+{
+padding : 5px 10px 5px 10px;
+border-style: solid;
+border-width: thin;
+border-color: black;
+margin-left: 45px;
+}
+
+#Grade
+{
+    padding : 5px 10px 5px 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    margin-left: 37px;
+}
+
+#mytitle  {
+    font-family: fantasy;
+    color:firebrick;
+    text-align: center;
+}
+#mybutton{
+border-radius:8px;
+width: 70px;
+height: 40px;
+font-size: 20px;
+font-weight:bold;
+background-color: #ff0000;
+color: whitesmoke;
+margin-left: 120px;
+margin-bottom: 30px;
+width:200px;
+}

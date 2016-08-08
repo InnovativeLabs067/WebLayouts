@@ -1,0 +1,145 @@
+#form{
+
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    background-color: white;
+}
+form
+{
+
+   /* margin-right:auto ;
+    margin-left: auto;*/
+    margin-left: 20px;
+    width: 30%;
+    max-width: 100%;
+    font-family:"Comic Sans MS", cursive;
+    font-size: 13px ;
+
+
+}
+legend{
+    font-size: 24px;
+}
+.field
+{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#loginimage
+{
+    max-width:100% ;
+    width: 20%;
+    height: auto;
+    float: left;
+}
+#login
+{
+    width:100px;
+
+    text-align: center;
+    border-radius:10px ;
+    border-bottom:solid;
+/*margin-left: 22px;*/
+    margin-left: 1em;
+    margin-top: 7px;
+    /*background-color: #e10b17;*/
+   /* background-color: #da0713;*/
+    background-color:royalblue;
+    color: white;
+    font-family:"Comic Sans MS", cursive;
+    font-size: 12px !important;
+display: inline-block;
+   float: left;
+
+}
+#login:hover
+{
+    cursor:pointer;
+    background-color: #da0713;
+    color:floralwhite;
+    font-weight: bold;
+}
+
+input{
+
+    padding:5px 12px 5px 12px;
+
+
+}
+input:hover
+{
+    background-color:beige;
+}
+footer
+{
+    max-width: 100%;
+
+
+
+    margin-top: 90px;
+    margin-bottom:0px;
+    padding: 3px;
+    font-family:"Comic Sans MS", cursive;
+background-color:darkgreen;
+    color:white ;
+    text-align: center;
+    font-size: 14px;
+}
+img:hover{
+    cursor: pointer;
+
+}
+#lastname
+{
+    margin-left: 10px;
+}
+body
+{
+    max-width: 100%;
+    min-width: 900px;
+
+}
+#signup
+{
+    float: left;
+    margin-bottom: 20px;
+    color: blue;
+
+}
+#signup:hover
+{
+    cursor: pointer;
+    color: red;
+}
+#free
+{
+    background-color:white;
+    width: 200px;
+    height: 20px;
+}
+#close
+{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#labelid
+{
+    color: #000000 !important;
+    font-size: 12px !important;
+}
+#login2
+{
+    width: 130px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-family: "Comic Sans MS", cursive;
+}
+#login2:hover
+{
+    cursor: pointer;
+    background-color: royalblue;
+}

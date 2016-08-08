@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>My Account TOll Tag</title>
+    <script type="text/javascript" src="sliderengine/jquery.js"></script><script type="text/javascript" src="sliderengine/jquery.hislider.js"></script>
+    <link href="bootstrap-3.3.4-dist/css/bootstrap.css" rel="stylesheet" media="all">
+    <link href="bootstrap-3.3.4-dist/css/bootstrap-theme.css" rel="stylesheet" media="all">
+    <script src="bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-3.3.4-dist/js/jquery-1.11.2.min.js" ></script>
+    <style>
+
+        .navbar{
+            background-color: #000000 !important;
+            color: #ffffff !important;
+        }
+
+        .navbar a:hover{
+            background-color:darkblue !important;
+            color: #f5f5f5 !important;
+        }
+        .set{
+            color: dimgray !important;
+            font: "monospace" !important;
+        }
+        .container{
+            background-color: #000000 !important;
+        }
+        .log{
+            color: darkblue !important;
+            font: "monospace" !important;
+            margin-left: 12%;
+
+        }
+        .log1{
+            color: dimgray !important;
+            font: "monospace" !important;
+            margin-left: 4%;
+        }
+        .active{
+            color: #ffffff !important;
+            background-color: darkblue !important;
+
+        }
+        .inp {
+            width: 100% !important;
+        }
+        .color{
+            color: dimgray;
+        }
+        .fmset{
+            margin-left: 20%;
+
+        }
+        #a{
+            color: #ffffff;
+        }
+        #fotul{
+            display: inline !important;
+            margin-left: 6%;
+            margin-right: 6%;
+        }
+        #img
+        {
+            display: inline !important;
+            margin-right: 2%;
+            margin-left: 2%;
+        }
+        .panel-footer{
+            background-color: #272727!important;
+            color: #ffffff !important;
+            margin-top: 32% !important;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div class="navbar navbar-inverse" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Automatic TOll Tax System  </a>
+            </div>
+            <div class="navbar-collapse collapse pull-right">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">My Tag Account</a> </li>
+                    <li><a href="page2.html">Get A Tag</a></li>
+                    <li><a href="page3.html">Tag Basics</a></li>
+                    <li><a href="page4.html">How To Pay A Toll</a></li>
+                    <li><a href="page5.html">FAQS</a></li>
+                </ul>
+
+            </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+    </div>
+    <div>
+        <div>
+            <div>
+                <h1 class="log1"><b>Automatic TOll Tax System</b></h1>
+
+
+                <!-- <p class="h4 log"><b>Go-Fast Tag is the fastest and most convenient way to travel on toll roads throughout Texas.</p>-->
+            </div>
+</div>
+        </div>
+    <div>
+        <img src="header_sign_overview.jpg" width="620px" height="490px" class="pull-right">
+        <form class="pull-left fmset">
+            <div class="form-group">
+                <fieldset>
+                    <legend class="color">Account Log In</legend>
+
+                    <label class="color">Log In Type</label>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="...">
+                            Account Number </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="...">Toll Tag Number
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="...">UserName /ID
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword" class="color" >Log In</label>
+                        <div>
+                            <input type="password" class="form-control inp" id="inputPassword" placeholder="User Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword" class="color" >Password</label>
+                            <div>
+                                <input type="password" class="form-control inp" id="inputPassword" placeholder="Password"><br>
+
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword" class="color" >Security Message</label>
+                                <div>
+                                    <input type="password" class="form-control inp" id="inputPassword" placeholder="Type security Code"><br>
+                                    <label for="inputPassword" class="color" >Security Code</label>
+                                    <label for="inputPassword" class="color h4" >6648</label>
+                                    <label for="inputPassword" class="color" ><a href="#">Refresh</a></label><br>
+                                    <button class="btn btn-primary">Log In</button>
+                                           <button class="btn btn-primary">Sign Up</button>
+                                </div>
+                            </div>
+                        </div></div>
+                    <a href="#">Forgot password?</a>
+                    <a href="#">Forgot User Name?</a>
+
+                </fieldset>
+            </div>
+
+
+        </form>
+        <br><br><br>
+        <div class="panel-footer">
+
+            <ul >
+                <li id="fotul">About us</li>
+                <li id="fotul">Terms</li>
+                <li id="fotul">Services</li>
+                <li id="fotul">More Info</li>
+                <li id="fotul">Links</li>
+                <li id="fotul">Feed Back</li>
+
+            </ul>
+            <br>
+            <center>
+                <h5>Join Us</h5>
+                <center>
+                    <img src="f.png" class="img-responsive img-circle" width="3%" id="img">
+                    <img src="t.jpg" class="img-responsive img-circle" width="3%" id="img">
+                    <img src="i.png" class="img-responsive img-circle" width="3%" id="img">
+                </center>
+                <br>
+                <!--<h5> Copy Rights are Reserved</h5>-->
+            </center>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

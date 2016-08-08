@@ -1,0 +1,199 @@
+.black_overlay{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 3300px;
+    background-color: black;
+    z-index:1001;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);
+}
+.white_content {
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    width: 30%;
+    max-width: 100%;
+
+    background-color: white;
+background-image: url("imag.jpg");
+   /* background-attachment: fixed;*/
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 40%;
+
+    height: 30%;
+    z-index: 1002;
+    overflow: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 180px #777777;
+}
+#progressbbar{
+    width:65%;
+    height:2em;
+    border:1px solid #000;
+    overflow:hidden;
+    border-radius: 5px;
+margin-top: 3em;
+    margin-top: 5px;
+  float: right;
+    margin-right: 1em;
+
+}
+#sliderbar{
+    width:0%;
+    height:2em;
+    border-right: 1px solid #000000;
+    background: royalblue;
+    border-radius: 5px;
+
+}
+#slide {
+    color: #000000;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    left: 25px;
+    position: relative;
+    top: -16px;
+}
+#iqlevel
+{
+    margin-left: 12em;
+    color: darkgoldenrod;
+    font-family: "Comic Sans MS", cursive;
+font-size: 14px;
+    font-weight: bold;
+}
+#scre
+{
+
+    margin-left: 12em;
+    color: darkgoldenrod;
+    font-family: "Comic Sans MS", cursive;
+font-size: 14px;
+    font-weight: bold;
+}
+#cancel
+{
+    width: 3%;
+    height: auto;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+#animpic
+{
+    width: 9%;
+    height: auto;
+    float: right;
+    margin-right: 9.2em;
+}
+#remarks
+{
+    color: royalblue;
+    font-family: "Comic Sans MS", cursive;
+font-size: 20px;
+margin-left: 6.5em;
+   font-weight: bold;
+}
+#que
+{
+    color: darkgoldenrod;
+    font-size: 18px;
+    margin-left: 1.5em;
+    font-family: "Comic Sans MS", cursive;
+}
+.answer
+{
+
+    margin-left: 2em;
+    font-family: "Comic Sans MS", cursive;
+}
+.answer:hover
+{
+    cursor: pointer;
+}
+#option
+{
+    color: darkgoldenrod;
+    font-size: 16px !important;
+}
+.score
+{
+    font-size: 24px;
+    color: green;
+    margin-left: 0.5em;
+
+}
+#score
+{
+    font-size: 24px;
+    color:green;
+}
+#txt
+{
+    font-size: 24px;
+    color:green;
+    float: right;
+    margin-right: 0.8em;
+    font-family: "Comic Sans MS", cursive;
+}
+.txt
+{
+    font-size: 24px;
+    color: green;
+    float: right;
+    font-family: "Comic Sans MS", cursive;
+
+}
+.next
+{
+    width: 7%;
+    border-radius: 5px;
+    color: white;
+    font-family: "Comic Sans MS", cursive;
+    background-color: royalblue;
+    margin-left: 2em;
+    padding: 7px !important;
+}
+.next:hover {
+    cursor: pointer;
+    color: white;
+    background-color: royalblue!important;
+}
+
+#result
+{
+    width: 7%;
+    border-radius: 5px;
+    color: white;
+    font-family: "Comic Sans MS", cursive;
+    background-color: royalblue;
+    margin-left: 2em;
+}
+#result:hover
+{
+    cursor: pointer;
+
+}
+#buton
+{
+
+    width: 10%;
+    border-radius: 5px;
+    color: white;
+    font-family: "Comic Sans MS", cursive;
+    background-color: green;
+    margin-left: 2em;
+    padding: 10px;
+    font-size: 16px;
+}
+#log
+{
+ margin-top: 1em;
+
+}

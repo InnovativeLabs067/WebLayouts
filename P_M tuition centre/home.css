@@ -1,0 +1,139 @@
+ 
+body{
+
+
+
+margin-top: 0px;
+    max-width: 100%;
+    min-width: 80%;
+}
+
+#header
+{
+
+     height: 130px;
+
+    /*background:linear-gradient(#ffffff,lightsteelblue 70%); *//* Standard syntax (must be last) */
+background-color: white;
+    max-width: 100%;
+    min-width: 80%;
+
+
+
+}
+
+#hdimg
+{
+max-width: 100%;
+    width:9%;
+    margin-left: 20px;
+    float: left;
+    margin-top: 5px;
+}
+#logo
+{
+
+
+    margin-left: 0px;
+    float: left;
+    max-width: 100%;
+    width: 33%;
+}
+span
+{
+    text-align: center;
+    margin-top: 40px;
+    float: right;
+    margin-right: 415px;
+    font-size:1.1em ;
+    font-family:"Comic Sans MS", cursive;
+
+}
+nav{
+    max-width: 100%;
+margin-top: 10px;
+    height: 6%;
+   background-color: lavender;
+
+
+}
+ul{
+
+    list-style-type: none;
+margin-left: 55px;
+    max-width: 100%;
+width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+li{
+    display: inline-block;
+margin-top: 2.5px;
+
+}
+.button
+{
+    width:130px;
+
+    text-align: center;
+border-radius: 10px 10px;
+    border-bottom:groove;
+    background-color:lavender;
+   /* background:linear-gradient(#ffffff,lightsteelblue 80%)*/
+    padding: 7px;
+    font-family:"Comic Sans MS", cursive;
+    margin-top: 0px;
+
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+
+    text-shadow: 3px 3px 7px grey ;
+
+
+}
+.button:hover
+{
+    cursor: pointer;
+
+
+}
+#poo
+{
+    max-width: 100%;
+    width:7.5%;
+    margin-right: 15px;
+    float: right;
+    margin-top: 5px;
+}
+.quote
+{
+    max-width: 100%;
+    width: 47%;
+    float: right;
+    text-align: center;
+    margin-top: 86px;
+    /*background-color:lavender;*/
+     font-family:"Comic Sans MS", cursive;;
+    font-size: 24px;
+}
+element.style
+{
+    background-color: white;!important;
+}
+#slide
+{
+background-color: white;!important;
+}
+.hi-about-text
+{
+    background-color: white;!important;
+}
+p
+{
+    background-color: white;
+}
+element.style{
+    background-color: white !important;
+}

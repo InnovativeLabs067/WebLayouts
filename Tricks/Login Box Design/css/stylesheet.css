@@ -1,0 +1,53 @@
+#main-pic{
+    background-image: url("beautiful_sydney-wallpaper-1920x1080.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 290px;
+    color: whitesmoke;
+    font-family: Mistral;
+    font-size: 100px !important;
+    position: relative;
+}
+#heading{
+    text-align: center;
+}
+#quote{
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: Myriad Pro;
+    margin-top: 38px;
+}
+
+
+
+
+
+
+#search-box{
+    position: absolute;
+    background-color: darkslategrey;
+    z-index: 99999;
+    width: 20%;
+    height: 270px;
+    bottom: 370px;
+    left: 70%;
+    top: 5%
+}
+.search-field{
+    height: 25px;
+    width: 75%;
+}
+#fields-align{
+    padding-top: 20px;
+    font-family: Bernard MT Condensed;
+    font-size: 22px;
+    color: #000000;
+}
+#login-form{
+    font-family: Bernard MT Condensed;
+}
+
+
+
+

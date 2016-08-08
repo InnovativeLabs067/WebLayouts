@@ -1,0 +1,200 @@
+header{
+    margin-top: 49px;
+    margin-bottom: 40px;
+}
+#logo{
+    display: inline;
+}
+nav{
+    float: right;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a {
+    color: dimgray;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: red;
+}
+#main-pic{
+    background-image: url("Japanese-Dishes.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 250px;
+    color: whitesmoke;
+    font-family: Mistral;
+    font-size: 100px !important;
+    border-bottom: 2px solid red;
+}
+#quote{
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: Myriad Pro;
+    margin-top: 38px;
+}
+#the-menu {
+    width: 110px;
+    height: 56px;
+    padding-top: 15px;
+    position: relative;
+    background: red;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Myriad Pro;
+}
+#the-menu:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 13px solid #eee;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+}
+#menu table{
+    margin-left: auto;
+    margin-right: auto;
+ }
+#menu table td{
+    padding: 66px;
+}
+ul#featured-dishes li{
+    display: inline-block;
+    padding-right: 60px;
+    width: 22.5%;
+}
+#featured-dishes-align{
+    text-align: center;
+}
+#featured-dishes-heading{
+    font-size: 20px;
+    font-family: Myriad Pro;
+    float: left;
+    margin-left: 105px;
+}
+.dish-name{
+    float: left;
+    font-family: Myriad Pro;
+    font-size: 16px;
+}
+.dish-price{
+    float: right;
+    font-family: Myriad Pro;
+    font-size: 16px;
+}
+.star-align{
+    float: left;
+    color: gold;
+}
+.dish-img{
+    -webkit-transition: all 800ms ease-in-out;
+    -moz-transition: all 800ms ease-in-out;
+    -ms-transition: all 800ms ease-in-out;
+    -o-transition: all 800ms ease-in-out;
+    transition: all 800ms ease-in-out;
+    border: 3px solid transparent;
+}
+.dish-img:hover{
+    /*opacity: 0.7;*/
+    z-index: 1000;
+    border: 3px solid red;
+    -webkit-filter: sepia(0.75);
+    filter: sepia(0.75);
+	transform: scale(1.1);
+}
+.gallery{
+/*
+    -webkit-transition: all 800ms ease-in-out;
+    -moz-transition: all 800ms ease-in-out;
+    -ms-transition: all 800ms ease-in-out;
+    -o-transition: all 800ms ease-in-out;
+    transition: all 800ms ease-in-out;*/
+
+    width: 250px;
+    height: 150px;
+}
+.gallery:hover{
+    opacity: 0.7;
+    z-index: 1000;
+
+    /*-webkit-filter: sepia(0.75);
+    filter: sepia(0.75);*/
+
+}
+#gallery-heading{
+    font-family: Adobe Arabic;
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    margin-left: 105px;
+    margin-top: 200px;
+}
+#table-align{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+#merge-img{
+    height: 300px;
+}
+#footer-links{
+    background-color: #3b3b3b;
+}
+#footer-align{
+    margin-left: 127px;
+    margin-right: 127px;
+}
+.footer-heading{
+    font-size: 16px !important;
+    color: white;
+    font-family: "Aleo Regula";
+}
+
+.links{
+    display: inline-block;
+    width: 24.5%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.links ul li{
+    font-size: 14px;
+    color: white;
+    font-family: "Aleo Regula";
+    padding: 2px;
+}
+.links ul li.address{
+    font-weight: lighter !important;
+    color: darkgray;
+}
+ul#more-option li a{
+    font-size: 16px;
+    color: white;
+    font-family: "Aleo Regula";
+}
+ul#more-option li a:hover{
+    font-size: 16px;
+    color: white;
+    font-family: "Aleo Regula";
+    text-decoration: none;
+}
+#pixelhint{
+    color: white;
+}
+#pixelhint:hover{
+    color: white;
+    text-decoration: none;
+}

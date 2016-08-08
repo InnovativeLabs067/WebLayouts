@@ -1,0 +1,55 @@
+
+======================================================================Question==========================================================================================
+<h2>Question.1.HTML stands for?</
+    <form id="q1" action="#" name="f1">
+
+        <input type="radio" id="1"    name="Question" value="Hyper text markup language" class="radio"><label class="title">Hyper text markup language</label>	 <br>
+
+        <input type="radio" id="2"    name="Question" value="Hyper text language" class="radio"><label class="title">Hyper text language</label> <br>
+
+        <input type="radio" id="3"    name="Question" value="Hyper text Markup" class="radio"><label class="title">Hyper text Markup </label> 	 <br>
+
+        <input type="radio" id="4"    name="Question" value="Hyper text Markup"class="radio"><label class="title">Hosting language</label> 	 <br>
+
+        <input type="button" name="submit" value="Check" class="button" onclick="Answer1();" />
+
+        <span><input type="text" name="answer" class="answer" /></span><br>
+        </form>
+<br>
+=======================================================================Question=========================================================================================
+
+
+====================================================================Logic javascript coding=============================================================================
+function Answer1()
+{
+    var result="Right Answer!!!";
+    var result2="Wrong Answer!!!";
+    var form = document.getElementById('q1'); //for passing form.
+    for(var i = 0; i < form.Question.length; i++)
+    {
+        if(form.Question[i].checked)//check means selection of radio button
+        {
+            var selectedValue = form.Question[i].value;
+        }
+
+
+    }
+
+    if(selectedValue=="Hyper text markup language")
+    {
+
+
+        document.f1.answer.value=result;
+
+
+
+    }
+
+    else
+    {
+        document.f1.answer.value=result2;
+    }
+
+
+}
+=======================================================================================================================================================================

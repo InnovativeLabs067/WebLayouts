@@ -1,0 +1,201 @@
+body
+{
+    background-color:lavender;
+    margin-top: 0px;
+
+}
+#main
+{
+    max-width: 100%;
+    width: 90%;
+    min-width: 980px;
+    height: 100px;
+
+    background-color: white;!important;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#hdimg
+{
+    max-width: 100%;
+    width:9%;
+    margin-left: 10px;
+    float: left;
+    margin-top: 5px;
+
+}
+#logo
+{
+
+
+    margin-left: 0px;
+    float: left;
+    width:30% ;
+    background-color: white;
+    margin-top: 5px;
+}
+#search
+{
+    /* margin-left: 210%;*/
+    margin-left: 27em !important;
+    /* float: left;*/
+    border-radius: 5px 5px !important;
+    width: 40% !important;
+    padding: 5px !important;
+    padding-top: 8px !important;
+
+}
+
+
+.quote
+{
+    font-family: "Comic Sans MS", cursive;
+    font-size: 145%;
+    max-width: 100%;
+    min-width: 80%;
+    text-align: center;
+    float: left;
+    color: green;
+
+    margin-top: 0px;
+    height: 10%;
+
+
+}
+header
+{
+
+    height: 70%;
+}
+#content
+{
+    max-width: 100%;
+    background-color: white;
+    height: 60em;
+
+
+}
+#uploadpic
+{
+    max-width: 100%;
+    width: 23%;
+
+    float: left;
+    height: auto;
+    background-color: white;
+    margin-left: 13em;
+    margin-top: 3em;
+    border-radius: 5px;
+    border-bottom-width: 5px;
+    border-color: lightslategrey !important;
+
+}
+#form
+
+{
+    margin-top: 8em;
+    float: left;
+    max-width:100% ;
+    width: 50%;
+    height: auto;
+
+    /*margin-left: 1em;*/
+}
+
+
+legend
+{
+    font-family: "Comic Sans MS", cursive;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+
+}
+
+#login
+{
+    width: 100%;
+    font-size: 2em;
+    border-radius: 5px;
+    background-color: royalblue;
+    color: white;
+    font-family:"Comic Sans MS", cursive;
+    padding: 0.2em;
+}
+form{
+    font-family:"Comic Sans MS", cursive;
+    font-size: 14px;
+
+    color: #000000;
+}
+.input{
+
+    padding:10px 15px 5px 12px;
+    border-radius: 5px 5px;
+    width: 50%;
+
+}
+input
+{
+    padding:10px 15px 5px 12px;
+}
+#userid
+{
+    margin-left: 2em;
+}
+#lastname
+{
+    /*margin-left: 17px;*/
+}
+#ltname
+{
+    margin-left:1.5em ;
+}
+#firstname
+{
+    margin-left: 1em;
+}
+#email
+{
+    margin-left: 5.3em;
+}
+#pwd
+{
+    margin-left: 3.3em;
+}
+input:hover
+{
+    background-color:beige;
+}
+.label
+{
+    margin-left: 2em;
+}
+#male
+{
+    margin-left: 1.5em;
+}
+#date
+{
+    border-radius: 5px 5px;
+}
+#login:hover{
+    cursor: pointer;
+}
+
+footer
+{
+    max-width: 100%;
+
+
+
+
+    margin-bottom:0px;
+    padding: 3px;
+    font-family:"Comic Sans MS", cursive;
+    background-color:#333;
+    color:white ;
+    text-align: center;
+    font-size: 14px;
+
+}

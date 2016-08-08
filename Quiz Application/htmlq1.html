@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Quizmaster.com</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="all">
+    <script type="text/javascript"  src="javascript.js" language="javascript"></script>
+
+
+
+
+
+
+
+</head>
+<body>
+<div class="wrap">
+<br><br><br>
+<div class="quizcenter">
+
+
+
+
+
+<!--
+<span id="time">Time Left=</span><span id="countdown" class="timer"></span>
+    <script>
+        var seconds = 300;
+        function secondPassed() {
+            var minutes = Math.round((seconds - 30)/60);
+            var remainingSeconds = seconds % 60;
+            if (remainingSeconds < 10) {
+                remainingSeconds = "0" + remainingSeconds;
+            }
+            document.getElementById('countdown').innerHTML = minutes + ":" + remainingSeconds;
+            if (seconds == 0) {
+                clearInterval(countdownTimer);
+                document.getElementById('countdown').innerHTML = alert("Stop");
+                document.getElementById('timeup').innerHTML="Time Over";
+            } else {
+                seconds--;
+            }
+        }
+
+        var countdownTimer = setInterval('secondPassed()', 1000);
+
+    </script>
+
+
+
+
+-->
+
+
+
+
+
+
+
+
+<div id="question">
+
+    <br>
+
+    <p>Q1.What does HTML means??</p>
+
+
+    <form id="onlinetest1" onSubmit="return Question1();">
+
+    <input type="radio" name="options" value="hybrid technique markup language">Hybrid Technique Markup Language<br>
+    <input type="radio" name="options" value="hyper text markup language">Hyper Text Markup Language<br>
+    <input type="radio" name="options" value="hydro text makeup language">Hydro Text Makeup Language<br>
+    <input type="radio" name="options" value="high technique markup language">High Technique Markup Language<br>
+    <br><br>
+    <input type="button" value="Next" onclick="Question1();">
+
+
+    </form>
+
+
+
+
+
+    <!--<p>Q2.Which one is the smallest heading??</p>
+
+    <form id="onlinetest2" onsubmit="return Question2();">
+
+        <input type="radio" name="options" value="a">h3<br>
+        <input type="radio" name="options" value="b">h5<br>
+        <input type="radio" name="options" value="c">h1<br>
+        <input type="radio" name="options" value="d">h6<br>
+        <br><br>
+        <input type="button" value="Next" onclick="final();"/>
+
+    </form>-->
+
+    <!--<form id="answers" onSubmit="return Answers();">
+        <input type="button" value="Check Answers" onclick="Answers()" class="button"/>
+
+    </form>
+
+-->
+
+
+</div><br>
+<span id="getscore">Score:</span><span id="score"></span>
+
+
+    <br>
+    <br>
+
+    <div id="displayanswers">
+
+        <table align="center">
+            <div id="answers"  align="center"></div>
+<!--
+            <tr>    <td></td>
+            </tr>
+-->
+            <tr>    <td><div id="displayanswer1"  align="center"></div></td>
+            </tr>
+            <tr>    <td><div id="displayanswer2"  align="center"></div></td>
+            </tr>
+            <tr>    <td><div id="displayanswer3"  align="center"></div></td>
+            </tr>
+            <tr>    <td><div id="displayanswer4"  align="center"></div></td>
+            </tr>
+            <tr>    <td><div id="displayanswer5"  align="center"></div></td>
+            </tr>
+
+        </table>
+    </div>
+
+
+
+    <span id="getpercentage"></span><span id="percent"></span>
+
+    <div id="finishquiz"></div>
+    <!--<div id="timeup"></div>-->
+
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+</body>
+</html>
